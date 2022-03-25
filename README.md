@@ -23,14 +23,14 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|'Joe' 'Ford' 39| {firstName: 'Joe', lastName: 'Ford', age: 79} |
+|'Sally' 'Mustang' '38'| {firstName: 'Sally', lastName: 'Mustang', age: 38} |
+|'Edgar' 'Explorer' '19'|{firstName: 'Edgar', lastName: 'Explorer', age: 19} |
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>Evaluates the entered firstName, lastName, and age in order to return the person object</td>
   </tr>
 </table>
 
